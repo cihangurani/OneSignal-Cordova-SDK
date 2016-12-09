@@ -25,12 +25,12 @@
   </engines>
   
   <platform name="android">
-    <framework src="com.onesignal:OneSignal:3.4.2@aar" />
+    <framework src="com.onesignal:OneSignal:3.4.2@aar" custom="true" />
 
-    <framework src="com.google.android.gms:play-services-gcm:+" />
+    <framework src="com.google.android.gms:play-services-gcm:+" custom="true" />
     <!-- play-services-analytics is only required when gms version 8.1.0 or older is used. -->
-    <framework src="com.google.android.gms:play-services-analytics:+" />
-    <framework src="com.google.android.gms:play-services-location:+" />
+    <framework src="com.google.android.gms:play-services-analytics:+" custom="true" />
+    <framework src="com.google.android.gms:play-services-location:+" custom="true" />
     
     <framework src="build-extras-onesignal.gradle" custom="true" type="gradleReference" />
 
