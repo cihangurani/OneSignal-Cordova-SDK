@@ -16,14 +16,11 @@
     "messaging",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios",
-    "cordova-amazon-fireos"
+    "cordova-ios"
   ],
   "platforms": [
     "android",
-    "ios",
-    "windows",
-    "amazon-fireos"
+    "ios"
   ],
   "engines": [
     {
@@ -43,9 +40,7 @@
     "id": "onesignal-cordova-plugin",
     "platforms": [
       "android",
-      "ios",
-      "windows",
-      "amazon-fireos"
+      "ios"
     ]
   },
   "repository": {
